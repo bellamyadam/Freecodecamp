@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"/>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"/>
+    </head>
+    <body>
+      <!-- NAV -->
+      <nav 
+      id="navbar"
+      class="nav">
+      <ul class="nav-list">
+        <li>
+           <a href="#welcome-section">About</a>
+        </li>
+        <li>
+           <a href="#projects">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+        </ul>
+      </nav>
+      <!-- END NAV -->
+
+       <!-- START WELCOME SECTION -->
+       <section
+       id="welcome-section"
+       class="welcome-section">
+       <h1>Hey I am Dream</h1>
+      <p>a blooming coder</p>
+      </section>
+      
+      <!-- END WELCOME SECTION -->
+
+      <!-- START PROJECTS SECTION -->
+
+      <section 
+      id="projects"
+      class="projects-section">
+      <h2 class="projects-section-header">
+        These are some of my projects</h2>
+      <div class="projects-grid">
+         <a
+     href="https://codepen.io/dreamyloki/pen/KKQBwzw"
+          target="_blank"
+          class="project project-tile"
+         ><div>Cafe Menu</div>
+         <img
+         width="400"
+            class="project-image"
+            src="https://shot.plnkr.co/YOZcpZM5tWC3nagV.png?d=2022-03-07T23:16:04.054Z"
+            alt="project"
+          />
+          <p class="project-title">
+          </p>
+        </a>
+        <a
+          href="https://codepen.io/dreamyloki/pen/xxYJbdX"
+          target="_blank"
+          class="project project-tile"
+        ><div>Tribute Page</div>
+          <img
+            class="project-image"
+            src="data:image/jpeg;base64,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"
+            alt="project"
+          /> 
+           <p class="project-title">
+          </p>
+        </a>
+        <a
+          href="https://codepen.io/dreamyloki/pen/bGLjEdJ"
+          target="_blank"
+          class="project project-tile"
+        ><div>Nutrition Label</div>
+          <img
+          width="400"
+            class="project-image"
+            src="https://media.npr.org/assets/img/2014/02/26/new-label2_custom-78217b75f0547ec99d1e91170af0357a3bf2ebed-s1100-c50.jpg"
+            alt="project"
+          />
+          <p class="project-title">
+          </p>
+        </a>
+        <a
+          href="https://codepen.io/dreamyloki/pen/MWQBKyK"
+          target="_blank"
+          class="project project-tile"
+        ><div>Ferris Wheel</div>
+          <img
+          width="400"
+            class="project-image"
+            src="https://aws1.discourse-cdn.com/freecodecamp/original/3X/b/6/b655d447b6b76928b2bb379cc86c24fcd26522e1.gif"
+            alt="project"
+          />
+          <p class="project-title">
+          </p>
+        </a>
+        <a
+          href="https://codepen.io/dreamyloki/pen/YzejwNv?editors=1100"
+          target="_blank"
+          class="project project-tile"
+        ><div>
+            ZooKnowledge Survey
+            </div>
+          <img
+          width="500"
+            class="project-image"
+            src="https://user-images.githubusercontent.com/67560520/126895151-0d123d28-bd48-4181-8b72-320bc1d87fad.png"
+            alt="project"
+          />
+          <p class="project-title">
+          </p>
+        </a>
+        <a
+          href="https://codepen.io/dreamyloki/pen/MWQBKvj"
+          target="_blank"
+          class="project project-tile"
+        > <div>Penguin</div>
+          <img
+          width="400"
+            class="project-image"
+            src="https://www.freecodecamp.org/news/content/images/2021/12/Learn_CSS_Transforms_by_Building_a_Penguin__Step_1___freeCodeCamp_org.png"
+            alt="project"
+          />
+<div></div>
+                <a
+        href="https://codepen.io/collection/dbWvdp"
+        class="btn btn-show-all"
+        target="_blank"
+        >
+        <span>Show all</span><i class="fas fa-chevron-right">
+          </i>
+          </a>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>Let's chat...</h2>
+        <p>Do you like what you've seen?</p>
+      </div>
+      <div class="contact-links">
+        <a
+          href="https://facebook.com/freecodecamp"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-facebook-square"></i> Facebook</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/freecodecamp"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        <a
+          href="https://twitter.com/freecodecamp"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-twitter"></i> Twitter</a
+        >
+        <a href="/cdn-cgi/l/email-protection#4d28352c203d21280d28352c203d2128632e2220" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a
+        >
+        <a href="tel:555-555-5555" class="btn contact-details"
+          ><i class="fas fa-mobile-alt"></i> Call me</a
+        >
+      </div>
+    </section>
+
+    <!-- END CONTACT SECTION -->
+
+    <!-- START FOOTER SECTION -->
+
+    <footer>
+      <p>
+        **This is just a fake portfolio. All the projects and contact details
+        given are not real.
+      </p>
+      <p>
+        &copy; Created for
+        <a href="https://www.freecodecamp.com/" target="_blank"
+          >freeCodeCamp <i class="fab fa-free-code-camp"></i
+        ></a>
+      </p>
+    </footer>
+
+    <!-- END FOOTER SECTION -->
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
+
+        </div>
+      </body>
+  </html>
